@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingException", "Threading\ThreadingException.csproj", "{BF3FF7EE-DB0C-45CF-BBAD-BC47C286C6DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicsThreading", "BasicsThreading\BasicsThreading.csproj", "{D1C8A933-F8BD-46A1-9D39-D934646E48C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF3FF7EE-DB0C-45CF-BBAD-BC47C286C6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3FF7EE-DB0C-45CF-BBAD-BC47C286C6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3FF7EE-DB0C-45CF-BBAD-BC47C286C6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3FF7EE-DB0C-45CF-BBAD-BC47C286C6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C8A933-F8BD-46A1-9D39-D934646E48C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C8A933-F8BD-46A1-9D39-D934646E48C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C8A933-F8BD-46A1-9D39-D934646E48C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C8A933-F8BD-46A1-9D39-D934646E48C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFE4BF28-8488-464B-81D3-40D8C0A30063}
+	EndGlobalSection
+EndGlobal
