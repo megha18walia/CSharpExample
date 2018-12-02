@@ -85,7 +85,7 @@ namespace BasicsThreading
         public void ExecuteParameterizedThread()
         {
             FirstParameterizedThread th = new FirstParameterizedThread("Message to Test Parameterized Thread", 99);
-            Thread t1 = new Thread(new ThreadStart(th.Print));
+            Thread t1 = new Thread(th.Print);
             t1.Start();
             Console.WriteLine("Parameterized Thread Started already");
             t1.Join();

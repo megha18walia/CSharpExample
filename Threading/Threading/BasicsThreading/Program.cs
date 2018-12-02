@@ -10,11 +10,20 @@ namespace BasicsThreading
     {
         static void Main(string[] args)
         {
-            RunFirstThread th = new RunFirstThread();
+            //RunFirstThread th = new RunFirstThread();
             // th.ExecuteThread();
             //th.ExecuteParameterizedThread();
-            th.ExecuteCallback();
-            Console.ReadLine();
+            //th.ExecuteCallback();
+
+            //ThreadInterrupt TI = new ThreadInterrupt();
+            //TI.ThreadSleepTest();
+
+            //CancelThreadDemo CTD = new CancelThreadDemo();
+            //CTD.CheckCancellation();
+
+            BackgroundThread BGT = new BackgroundThread();
+            BGT.ExecuteForeground();
+           // Console.ReadLine();
         }
     }
 }

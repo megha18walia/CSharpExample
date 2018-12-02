@@ -42,9 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackgroundThread.cs" />
+    <Compile Include="CancelThreadDemo.cs" />
     <Compile Include="FirstThread.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThreadInterrupt.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
