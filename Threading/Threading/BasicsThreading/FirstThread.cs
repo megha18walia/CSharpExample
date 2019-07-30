@@ -39,6 +39,11 @@ namespace BasicsThreading
         {
             Console.WriteLine(message + " : " + value);
         }
+
+        public void CheckParametersWork(int x , int y)
+        {
+            Console.WriteLine(x * y);
+        }
     }
 
     class FirstParameterThreadCallback
@@ -90,6 +95,13 @@ namespace BasicsThreading
             Console.WriteLine("Parameterized Thread Started already");
             t1.Join();
             Console.WriteLine("paameterized Thread Ended");
+
+            Console.WriteLine("Parameter Using lambda");
+            new Thread(() => {
+                th.CheckParametersWork(20, 30);
+                Console.WriteLine("Thread using Lambda executed");
+            }).Start();
+
         }
 
         public void ExecuteCallback()

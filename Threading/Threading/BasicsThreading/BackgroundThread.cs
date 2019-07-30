@@ -11,10 +11,17 @@ namespace BasicsThreading
     {
         public void Run()
         {
-            for(int i = 0; i< 100; i++)
+            try
             {
-                Console.Write("\t" + i);
-                Thread.Sleep(1000);
+                for (int i = 0; i < 100; i++)
+                {
+                    Console.Write("\t" + i);
+                    Thread.Sleep(100);
+                }
+            }
+            finally
+            {
+                Console.ReadLine();
             }
 
         }

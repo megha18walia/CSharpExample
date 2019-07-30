@@ -10,7 +10,7 @@ namespace BasicsThreading
     {
         static void Main(string[] args)
         {
-            //RunFirstThread th = new RunFirstThread();
+            RunFirstThread th = new RunFirstThread();
             // th.ExecuteThread();
             //th.ExecuteParameterizedThread();
             //th.ExecuteCallback();
@@ -22,7 +22,7 @@ namespace BasicsThreading
             //CTD.CheckCancellation();
 
             BackgroundThread BGT = new BackgroundThread();
-            BGT.ExecuteForeground();
+            BGT.ExecuteBackground();
            // Console.ReadLine();
         }
     }
